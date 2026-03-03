@@ -1,0 +1,50 @@
+[project]
+name = "Ultra"
+version = "1.1.0"
+requires-python = ">=3.9"
+description = "Ultra is a framework for retina artery vein segmentation in UWF imaging."
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Healthcare Industry",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+keywords = [
+    'deep learning',
+    'image segmentation',
+    'semantic segmentation',
+    'medical image analysis',
+    'medical image segmentation',
+]
+dependencies = [
+    "nnunetv2",
+    "rich",
+    "prettytable",
+    "torch==2.8.0",
+    "torchvision==0.23.0",
+]
+
+[project.scripts]
+ultra-train = "ultra.run.run_training:run_training_entry"
+ultra-predict = "ultra.run.run_prediction:predict_entry_point"
+
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+    "pre-commit"
+]
+
+[build-system]
+requires = ["setuptools>=67.8.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.codespell]
+skip = '.git,*.pdf,*.svg'
+#
+# ignore-words-list = ''
