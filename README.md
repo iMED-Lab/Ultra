@@ -69,6 +69,16 @@ ultra-predict -i <input_folder> -o <output_folder> -d <dataset_id> -c <configura
 
 > **Note:** The checkpoint with the best performance during training will be automatically selected as the default for prediction.
 
+### Neighborhood Connectivity Encoding
+
+The core implementation for our neighborhood connectivity encoding is located in [`ultra/utilities/to_neighbor_connectivity.py`](ultra/utilities/to_neighbor_connectivity.py). This module captures multi-scale spatial relationships to preserve structural continuity.
+
+**Key Components:** 
+
+* **`to_nk_maps` (Entry Point):** Aggregates neighborhood connectivity maps across multiple receptive fields (e.g., kernel sizes of 3, 5, and 7).  
+* **`nk_encode`:** Computes the connectivity encoding for a specific kernel size $k$. It evaluates the structural continuity between a center pixel and its surrounding neighborhood. 
+* **`bresenham_line`:** An underlying utility that implements Bresenham's line algorithm to accurately determine the discrete pixel path between two points during the connectivity check.
+
 ### Trained Models
 
 | Modality | Download |
@@ -76,10 +86,6 @@ ultra-predict -i <input_folder> -o <output_folder> -d <dataset_id> -c <configura
 |   CFP    | soon     |
 |   UWF    | soon     |
 | CFP+UWF  | soon     |
-
-
-
----
 
 ## :file_folder: Supported Datasets
 
