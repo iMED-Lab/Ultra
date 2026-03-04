@@ -69,6 +69,16 @@ ultra-predict -i <input_folder> -o <output_folder> -d <dataset_id> -c <configura
 
 > **Note:** The checkpoint with the best performance during training will be automatically selected as the default for prediction.
 
+### Trained Models
+
+| Modality | Download |
+| :------: | :------- |
+|   CFP    | soon     |
+|   UWF    | soon     |
+| CFP+UWF  | soon     |
+
+
+
 ---
 
 ## :file_folder: Supported Datasets
