@@ -87,15 +87,6 @@ The core implementation for our neighborhood connectivity encoding is located in
 |   UWF    | soon     |
 | CFP+UWF  | soon     |
 
-## :file_folder: Supported Datasets
-
-The framework has been tested and evaluated on the following public datasets:
-
-- **[PRIME](https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset)**: Ultra-widefield fundus photography dataset. 
-- **[AV-WIDE](https://people.duke.edu/~sf59/Estrada_TMI_2015_dataset.htm)**: Ultra-widefield fundus photography dataset.
-- **[LES-AV](https://figshare.com/articles/dataset/LES-AV_dataset/11857698)**: Color fundus photography dataset. 
-- **[HRF](https://www5.cs.fau.de/research/data/fundus-images/)**: Color fundus photography dataset. 
-
 ## :bookmark: Citation
 
 *Our paper is currently under review. Citation details are coming soon!*
