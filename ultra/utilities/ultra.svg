@@ -1,0 +1,13 @@
+<svg width="250" height="80" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neon-gradient" x1="20%" y1="0%" x2="80%" y2="0%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#ff00cc;stop-opacity:1" /> <stop offset="50%" style="stop-color:#ab20fd;stop-opacity:1" /> <stop offset="100%" style="stop-color:#3333ff;stop-opacity:1" /> </linearGradient>
+  </defs>
+
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+        font-family="'SF Mono', 'Roboto Mono', Menlo, Consolas, monospace, sans-serif" 
+        font-weight="bold" 
+        font-size="52">
+    <tspan fill="#000000">{</tspan><tspan fill="url(#neon-gradient)">Ultra</tspan><tspan fill="#000000">}</tspan>
+  </text>
+</svg>

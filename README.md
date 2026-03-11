@@ -1,16 +1,16 @@
-<p align="center">
- <img width="180px" src="https://i.postimg.cc/sDGVDDBh/ultra.png" align="center" alt="Ultra"/>
-    <h2 align="center">Ultra for Artery Vein Segmentation</h2>
+<p align="center">   
+    <img width="200px" src="ultra/utilities/ultra.svg" alt="Ultra"/>      
 </p>
+
+<p align="center">     
+	<h3 align="center">Retinal Artery and Vein Segmentation</h3> 
+</p>
+
 
 <p align="center">
 <img alt="OS - Ubuntu" src="https://img.shields.io/badge/OS-Ubuntu-E95420?logo=ubuntu&logoColor=white"/>
   <img alt="Python - 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white"/>
 </p>
-
-
-
-
 <p align="center">
  <img width="800px" src="https://i.postimg.cc/14hrF3y4/segav.png" align="center" alt="Segmentation results"/>
 </p>
@@ -49,6 +49,8 @@ pip install -e .
 
 ## :traffic_light: Usage
 
+> **Note:** Make sure to configure your nnUNet paths as described in the [official instructions](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/setting_up_paths.md) before executing these commands.
+
 ### Training
 
 To train the model, specify the dataset ID, configuration, and fold. 
@@ -81,11 +83,7 @@ The core implementation for our neighborhood connectivity encoding is located in
 
 ### Trained Models
 
-| Modality | Download |
-| :------: | :------- |
-|   CFP    | soon     |
-|   UWF    | soon     |
-| CFP+UWF  | soon     |
+Pre-trained model weights are available for download on [Zenodo](https://doi.org/10.5281/zenodo.18939161). To perform inference, please download and place the model folders into the directory specified by your `nnUNet_results` environment variable (refer to the [nnUNet instructions for setting up paths](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/setting_up_paths.md) for more details).
 
 ## :bookmark: Citation
 
