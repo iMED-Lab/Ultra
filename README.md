@@ -1,12 +1,13 @@
 <p align="center">   
     <p align="center">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&height=150&text={%20Ultra%20}&reversal=false&section=header&textBg=false&fontColor=2E236C&fontSize=50&animation=scaleIn&desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vasculature%20Parsing&descSize=20&descAlignY=80" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&height=150&text={%20Ultra%20}&reversal=false&section=header&textBg=false&fontColor=FF4400&fontSize=50&animation=scaleIn&desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vasculature%20Parsing&descSize=20&descAlignY=80" />
    <img alt="OS - Ubuntu" src="https://img.shields.io/badge/OS-Ubuntu-E95420?logo=ubuntu&logoColor=white"/>
   <img alt="Python - 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white"/>
 </p>
 <p align="center">
  <img width="800px" src="https://i.postimg.cc/14hrF3y4/segav.png" align="center" alt="Segmentation results"/>
 </p>
+
 
 
 ---
@@ -77,7 +78,7 @@ The core implementation for our neighborhood connectivity encoding is located in
 
 ### Trained Models
 
-Pre-trained model weights are available for download on [Zenodo](https://doi.org/10.5281/zenodo.18939161). To perform inference, please download and place the model folders into the directory specified by your `nnUNet_results` environment variable (refer to the [nnUNet instructions for setting up paths](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/setting_up_paths.md) for more details).
+Pre-trained model weights are available for download on [CFP-AV](https://doi.org/10.5281/zenodo.18939161), [UWF-AV](https://doi.org/10.5281/zenodo.18939161), [CFP+UWF-AV](https://doi.org/10.5281/zenodo.18973075). To perform inference, please download and place the model folders into the directory specified by your `nnUNet_results` environment variable (refer to the [nnUNet instructions for setting up paths](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/setting_up_paths.md) for more details).
 
 ## :bookmark: Citation
 
