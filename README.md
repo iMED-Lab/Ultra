@@ -1,12 +1,13 @@
 <p align="center">   
     <p align="center">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&height=150&text={%20Ultra%20}&reversal=false&section=header&textBg=false&fontColor=FF4400&fontSize=50&animation=scaleIn&desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vasculature%20Parsing&descSize=20&descAlignY=80" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&height=150&text={%20Ultra%20}&reversal=false&section=header&textBg=false&fontColor=FF4400&fontSize=40&animation=scaleIn&desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vasculature%20Parsing&descSize=20&descAlignY=80" />
    <img alt="OS - Ubuntu" src="https://img.shields.io/badge/OS-Ubuntu-E95420?logo=ubuntu&logoColor=white"/>
   <img alt="Python - 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white"/>
 </p>
 <p align="center">
  <img width="800px" src="https://i.postimg.cc/14hrF3y4/segav.png" align="center" alt="Segmentation results"/>
 </p>
+
 
 
 
