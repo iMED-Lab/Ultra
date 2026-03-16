@@ -1,6 +1,6 @@
 <p align="center">   
     <p align="center">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&height=150&text={%20Ultra%20}&reversal=false&section=header&textBg=false&fontColor=E90064&fontSize=40&animation=scaleIn&desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vasculature%20Parsing&descSize=20&descAlignY=80" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&height=150&color=000000&text={%20Ultra%20}&section=header&reversal=false&fontColor=E90064&textBg=false&fontSize=50&animation=fadeIn&desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vascularture%20Parsing&descAlignY=70&fontAlignY=35" />
    <img alt="OS - Ubuntu" src="https://img.shields.io/badge/OS-Ubuntu-E95420?logo=ubuntu&logoColor=white"/>
   <img alt="Python - 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white"/>
   <img alt="PyTorch - 2.2.0+" src="https://img.shields.io/badge/PyTorch-2.2.0%2B-EE4C2C?logo=pytorch&logoColor=white"/>
@@ -11,6 +11,7 @@
 <p align="center">
  <img width="800px" src="https://i.postimg.cc/14hrF3y4/segav.png" align="center" alt="Segmentation results"/>
 </p>
+
 
 
 ## :rocket: Installation 
