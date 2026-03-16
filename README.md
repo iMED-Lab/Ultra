@@ -1,10 +1,9 @@
-<div align="center">
-
-![🕸️Ultra](https://capsule-render.vercel.app/api?type=transparent&height=200&color=000000&text=🕸️-nl-%7B%20Ultra%20%7D&section=header&reversal=false&fontColor=000000&textBg=false&fontSize=50&animation=fadeIn&desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vascularture%20Parsing&descAlignY=85&fontAlignY=30#gh-light-mode-only)
-![🕸️Ultra](https://capsule-render.vercel.app/api?type=transparent&height=200&color=000000&text=🕸️-nl-%7B%20Ultra%20%7D&section=header&reversal=false&fontColor=FFFFFF&textBg=false&fontSize=50&animation=fadeIn&desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vascularture%20Parsing&descAlignY=85&fontAlignY=30#gh-dark-mode-only)
-</div>
-
 <p align="center">
+    <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=transparent&amp;height=200&amp;color=000000&amp;text=🕸️-nl-%7B%20Ultra%20%7D&amp;section=header&amp;reversal=false&amp;fontColor=FFFFFF&amp;textBg=false&amp;fontSize=50&amp;animation=fadeIn&amp;desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vascularture%20Parsing&amp;descAlignY=85&amp;fontAlignY=30">
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=transparent&amp;height=200&amp;color=000000&amp;text=🕸️-nl-%7B%20Ultra%20%7D&amp;section=header&amp;reversal=false&amp;fontColor=000000&amp;textBg=false&amp;fontSize=50&amp;animation=fadeIn&amp;desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vascularture%20Parsing&amp;descAlignY=85&amp;fontAlignY=30">
+    <img alt="🕸️Ultra" src="https://capsule-render.vercel.app/api?type=transparent&amp;height=200&amp;color=000000&amp;text=🕸️-nl-%7B%20Ultra%20%7D&amp;section=header&amp;reversal=false&amp;fontColor=000000&amp;textBg=false&amp;fontSize=50&amp;animation=fadeIn&amp;desc=Multi-Granularity%20Topological%20Reasoning%20for%20Anatomically%20Consistent%20Vascularture%20Parsing&amp;descAlignY=85&amp;fontAlignY=30">
+  </picture>
    <img alt="OS - Ubuntu" src="https://img.shields.io/badge/OS-Ubuntu-E95420?logo=ubuntu&logoColor=white"/>
   <img alt="Python - 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white"/>
   <img alt="PyTorch - 2.2.0+" src="https://img.shields.io/badge/PyTorch-2.2.0%2B-EE4C2C?logo=pytorch&logoColor=white"/>
