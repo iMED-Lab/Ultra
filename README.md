@@ -11,8 +11,6 @@
 <p align="center">
  <img width="800px" src="https://i.postimg.cc/14hrF3y4/segav.png" align="center" alt="Segmentation results"/>
 </p>
----
-
 ## :rocket: Installation 
 
 ### 1. Clone the Repository
