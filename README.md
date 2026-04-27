@@ -87,7 +87,19 @@ Pre-trained model weights are available for download on [CFP-AV](https://doi.org
 
 ## :bookmark: Citation
 
-*Our paper is currently under review. Citation details are coming soon!*
+If you find this repository useful for your research or work, plsease consider citing our paper.
+
+```markdown
+@ARTICLE{11493648,
+  author={Mou, L. and Liu, Y. and Xu, Z. and Zhang, H. and Zheng, Y. and Liu, J. and Fu, H. and Zhao, Y.},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Multi-Granularity Topological Reasoning for Anatomically Consistent Vasculature Parsing}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TIP.2026.3683249}}
+```
 
 ---
 
